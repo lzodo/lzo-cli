@@ -13,7 +13,12 @@ Commands:
   addcpn <vue-cpn-name>              创建一个vue组件,默认src/components 或通过 -D 指定路径
   help [command]                     display help for command
 ```
-
+#### 创建项目
 ```shell
 zo create demo 
+```
+
+#### 系统工具
+```shell
+zo open # 打开指定浏览器，并选择或打开自定义网站
 ```

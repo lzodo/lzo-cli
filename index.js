@@ -1,8 +1,7 @@
 #!/usr/bin/env node
 const program = require("commander");
+
 const helpOptions = require("./lib/core/help");
-// const createCommands = require("./lib/core/create");
-// const systemToolCmds = require("./lib/core/create-system")
 const vueCommands = require("./lib/core/commands/vue-cmd");
 const configCommands = require("./lib/core/commands/config-cmd");
 const systemCommands = require("./lib/core/commands/system-cmd");
@@ -18,13 +17,9 @@ program.version(require("./package.json").version)
 helpOptions();
 
 //相关指令
-// createCommands();
 vueCommands()
 configCommands()
 systemCommands()
-
-//其他操作指令
-// systemToolCmds();
 
 // 继续传入的参数
 program.parse(process.argv)
@@ -32,3 +27,4 @@ program.parse(process.argv)
 
 
 //chalk 
+// const programOpts = require("commander").opts(); //获取 program.option 设置的参数
