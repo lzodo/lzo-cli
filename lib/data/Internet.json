@@ -1,5 +1,13 @@
 {
+    "必应": "https://cn.bing.com/?mkt=zh-cn",
+    "Yandex":"https://yandex.com/",
+    "谷歌翻译":"https://translate.google.cn",
+    "Github":"https://github.com",
+    "gitee码云":"https://gitee.com",
+    "掘金":"https://juejin.cn/frontend",
+    "简书":"https://www.jianshu.com/techareas/frontend",
     "百度": "www.baidu.com",
     "学习笔记": "https://lzo-gitee.gitee.io",
-    "NodeJs文档": "http://nodejs.cn/learn"
+    "NodeJs文档": "http://nodejs.cn/learn",
+    "Mdn":"https://developer.mozilla.org/zh-CN/"
 }
