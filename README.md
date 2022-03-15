@@ -17,7 +17,7 @@ Commands:
   osinfo                             获取系统信息
   open [options]                     选择浏览器打开特定网站
   doc [options]                      快速打开远程笔记文档 set-confit doc <url> 设置
-  env                                获取环境变更了
+  env                                获取环境变量
 ```
 #### 创建项目
 ```shell
@@ -33,4 +33,5 @@ zo doc -l # 文件夹弹出常用工作目录
 #### 系统工具
 ```shell
 zo open  # 打开指定浏览器，并选择或打开自定义网站
+zo o # 打开当前终端所在文件夹
 ```
