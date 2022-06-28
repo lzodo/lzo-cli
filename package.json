@@ -11,7 +11,7 @@
   },
   "author": "lzoxun",
   "license": "MIT",
-  "homepage":"https://github.com/liaozhongxun/lzo-cli",
+  "homepage": "https://github.com/liaozhongxun/lzo-cli",
   "repository": {
     "type": "git",
     "url": "https://github.com/liaozhongxun/lzo-cli"
@@ -31,6 +31,7 @@
     "log-symbols": "^4.1.0",
     "npmlog": "^6.0.1",
     "open": "^8.4.0",
-    "ora": "^4.1.1"
+    "ora": "^4.1.1",
+    "shelljs": "^0.8.5"
   }
 }

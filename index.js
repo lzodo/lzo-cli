@@ -7,6 +7,7 @@ const helpOptions = require("./lib/core/help");
 const vueCommands = require("./lib/core/commands/vue-cmd");
 const configCommands = require("./lib/core/commands/config-cmd");
 const systemCommands = require("./lib/core/commands/system-cmd");
+const shellCommands = require("./lib/core/commands/shelljs-cmd");
 
 // import chalk from "chalk";
 // console.log(chalk.blue('Hello world!'));
@@ -22,6 +23,8 @@ helpOptions();
 vueCommands()
 configCommands()
 systemCommands()
+
+shellCommands()
 
 // 继续传入的参数
 program.parse(process.argv)
