@@ -33,13 +33,3 @@ program.parse(process.argv)
 
 //chalk 
 // const programOpts = require("commander").opts(); //获取 program.option 设置的参数
-
-
-//https://www.jianshu.com/p/7b43cefe3e4e
-// npm install --save-dev babel-cli babel-preset-env # babel-cli 和 es6+ 最新语法 
-// $ npm install --save-dev babel-preset-stage-0 # es6+ 阶段性提案语法 stage-0 包含stage1,2,3
-// $ npm install --save-dev babel-register # 钩子，在程序入口文件引入即可实现转码
-// $ npm install --save babel-polyfill # babel转码时不能识别一些全局对象的API，例如Object.assign，使用它可以解决这个问题
-
-//https://juejin.cn/post/6986579627829362724
-//https://blog.csdn.net/github_26672553/article/details/61919177
