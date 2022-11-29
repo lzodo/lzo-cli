@@ -33,3 +33,9 @@ program.parse(process.argv)
 
 //chalk 
 // const programOpts = require("commander").opts(); //获取 program.option 设置的参数
+
+//进度条 progress
+//交互着色 chalk
+//交互式问答 inquirer
+//小图标 ora
+//命令行玩浏览器 puppeteer
